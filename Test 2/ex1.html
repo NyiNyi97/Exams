@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ex1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		.stu{
+	color:  red;
+ font-size:  25px;
+
+}
+
+.nn{
+	display: inline-block;
+	width: 100%;
+}
+.day,
+.month,
+.year{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin-left: 40px;
+}
+
+
+.cc{
+	background-color: blue;
+
+}
+ p{
+ 	text-transform: lowercase;
+ 	text-align: justify;
+ 	word-spacing: 10px;
+ }
+
+ .thank{
+ 	text-align: center;
+ 	font-size:  30px;
+ }
+
+p{
+	background-color: gray;
+	width: : 20px;
+	height: 20px;
+
+}
+
+input[type="text"]:focus{
+	border: 3px solid #555;
+
+}
+
+input[type="radio"]:checked+label{
+	font-weight: purple;
+	color: red;
+
+}
+
+input[type="checkbox"]:disabled+label{
+	color: #607DBB;
+	font-style: italic;
+
+}
+input[type="checkbox"]:enabled+label{
+	color: #607DBB;
+	font-style: italic;
+}
+
+
+input[type="checkbox"]:checkbox+label{
+	color: #aaa;
+	font-style: italic;	
+}
+
+.role{
+	background-color: #E74C3C;
+	font-size : 21px;
+	color: white;
+}
+
+li:first-child{
+	background-color: yellow;
+}
+li:last-child{
+	background-color: blue;
+}
+
+li:nth-child(4){
+background-color: skyblue;
+}
+
+
+	</style>
+</head>
+<body>
+
+
+	<fieldset>
+		<center><legend > Form Example</legend>
+			<form method="GET" action="create.php">
+				<label for="first_name" > First name </label>
+					<input type="text" name="first_name" value="" readonly="" id="first_name"><br><br>
+
+				<label for="name_id">Last name</label>	
+				<input type="text" name="name" id="name_id" required="" > <br><br>
+
+				<label for="password">Password</label>
+					<input type="password" name="password" id="password" required="" > <br><br>
+
+				<label for="confrim ">Confrim Password</label>
+				<input type="password" name="confrim password" id="confrim"><br><br>
+
+			
+
+
+				<label>Enter Your Hobbies</label>
+			    <select>
+					<option value="first">Travelling</option>
+					<option value="second"></option>
+					<option value="third"></option>
+			   	</select> <br> <br>
+			   	<label for="Passport_id">Notified by Email</label>
+				<input type="checkbox" name="" id="Passport_id"><br><br>
+
+				<label>Gender</label>
+				<input type="radio" name="gender" id="male_id" > <label for="male_id">Male</label>
+				<input type="radio" name="gender" id="famale_id"> <label for="famale_id">Famle</label> <br> <br>
+
+			
+				<label>Address</label>
+				<textarea></textarea> <br> <br>
+	
+				<input type="submit" name="" value="submit">
+				<input type="submit" name="" value="Clear form">
+
+
+	
+			</form>
+	</fieldset> </center>
+
+
+	
+</body>
+</html>
+
+</body>
+</html>

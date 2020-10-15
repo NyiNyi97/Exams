@@ -1,0 +1,34 @@
+Task 1
+
+1. SELECT name FROM staffs
+
+2. SELECT deparment_id FROM staffs
+
+3. SELECT name FROM staffs ORDER BY name
+
+4. SELECT name FROM staffs ORDER BY name
+   SELECT name FROM departments ORDER BY name DESC
+
+5. SELECT name FROM staffs WHERE name ="Kay Thwe" 
+   SELECT name FROM staffs WHERE name ="Thae Su Wai"
+
+6. SELECT name FROM departments WHERE name = "Admin"
+
+7. SELECT name FROM staffs WHERE name LIKE "a%"
+
+8. SELECT name FROM staffs WHERE name LIKE "%e"
+
+9. SELECT salary FROM staffs  WHERE salary BETWEEN 100000 AND 500000
+
+10. SELECT * FROM `staffs` WHERE joindate='2014-02-20'
+
+11. SELECT COUNT(*) AS employess FROM departments
+
+
+12.
+
+13. SELECT * FROM staffs LIMIT 5
+
+14. SELECT Max(salary) as threemax FROM staffs
+
+15.
